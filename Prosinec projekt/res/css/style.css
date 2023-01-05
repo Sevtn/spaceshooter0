@@ -1,0 +1,36 @@
+
+/*
+#canvas {
+  position: relative;
+  width: 1900px;
+  height: 850px;
+  margin: 40px auto;
+  border: 2px solid white;
+  background-color: black;
+  overflow: hidden;
+  z-index: -9;
+}
+#jet {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url("./img/default1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 950px;
+  bottom: 100px;
+  transition: 0.5s;
+ 
+}
+
+
+.bullets {
+  position: absolute;
+  bottom: 40px;
+  left: 51%;
+  width: 20px;
+  height: 20px;
+  background: url("./img/269-2691419_bullet-kin-[enter-the-gungeon]-pixel-art.png");
+ 
+  z-index: 9;
+}

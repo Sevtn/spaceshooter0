@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./res/css/style.css" />  neche fungovati
+  </head>
+  <style>
+    body {         
+      width: 100%;
+      overflow: hidden;
+      background: url("space.jpg");
+      background-size: cover;
+    }
+    #board {
+      position: relative;
+      width: 800px;
+      height: 600px;
+      margin: 40px auto;
+      border: 2px solid white;
+      background-color: black;
+      overflow: hidden;
+    }
+/** tady to nejak funguje?? **/
+.bullets {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      background: url(./res/img/bullet.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    #jet {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background: url(./res/img/frame.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 50%;
+      bottom: 0px;
+    }
+
+    .rocks {
+      position: absolute;
+      top: 0px;
+      width: 50px;
+      height: 50px;
+      background: url(./res/img/Asteroid\ Brown.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    
+  </style>
+  <script src="./res/js/main.js" defer></script>
+  <body>
+    <div id="board">
+      <div class="rocks"></div>
+      <div id="jet"></div>
+    </div>
+    <div id="points">0</div>
+  </body>
+</html>
